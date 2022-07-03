@@ -7,12 +7,20 @@ h1 {
     font-size: 50px;
 }
 
+p {
+    text-align: justify;
+    color: gray;
+    margin-bottom: 20px;
+}
+
 .orange {
     color: orange;
 }
 
 section {
     display: flex;
+    padding: 0px 20px;
+    margin-bottom: 150px;
 
 }
 
@@ -24,6 +32,7 @@ section {
 .half-width {
     width: 50%;
     padding-left: 2%;
+    padding-right: 4%;
 }
 
 .half-width img {
@@ -37,4 +46,10 @@ section {
     font-weight: 700;
     border-radius: 10px;
     color: white;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
